@@ -1,0 +1,28 @@
+{
+	"name": "moss-color-theme",
+	"displayName": "Moss Color Theme",
+	"description": "Moss Color Theme",
+	"version": "0.1.0",
+	"publisher": "yile-ou",
+	"author": {
+		"name": "Yile Ou",
+		"email": "troy.yile@gmail.com",
+		"url": "https://yile.art/"
+	},
+	"repository": "https://github.com/troydraws/moss-color-theme",
+	"engines": {
+		"vscode": "^1.38.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Moss Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/moss-color-theme.json"
+			}
+		]
+	}
+}
